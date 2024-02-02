@@ -1,0 +1,106 @@
+*{
+    margin: 0;
+    padding: 0;
+   
+}
+.nav_bg{
+    background-color: whitesmoke;
+    height: 70px;
+}
+.nav_title a{
+    text-decoration: none;
+    color: green;
+    margin-left: 50px;
+    margin-bottom: 15px;
+    font-family:'DM Serif Display', serif ;
+}
+.nav_title a:hover{
+    color: black;
+}
+.sign_up a{
+    color: black;
+    text-decoration: none;
+    
+}
+.sign_up {
+    list-style-type: none;
+    display: inline-flex;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: large;
+    
+}
+.sign_up li{
+    position: relative;
+    left: 70vh;
+    margin-left: 40px;
+    bottom: 55px;
+
+}
+.register{
+    position: relative;
+    left: 30vh;
+    border: none ;
+    border-radius: 5%;
+    bottom: 5px;
+    background-color: whitesmoke;
+    height: 35px;
+    width: 150px;
+}
+.register_tag{
+    position: relative;
+    left: 30vh;
+    border-radius: 5%;
+    height: 35px;
+    width: 85px;
+}
+.register:hover{
+    color: white;
+    background-color: black;
+}
+.register_tag:hover{
+    color: white;
+    background-color: black;
+}
+
+/* navbar ends  */
+
+.text_content h1{
+    font-family: 'DM Serif Display', serif;
+    color: rgb(72, 72, 194);  
+    margin-top: 50px;  
+}
+.clients_logo img{
+    width: 13rem;
+    margin-top: 40px;
+}
+.img {
+    max-width: 100%;
+}
+
+/* cliends section ends  */
+.footer_section{
+    background-color: rgb(39, 38, 38);
+    margin-top: 50px;
+}
+.footer_titile h2{
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-top: 60px;
+}
+.footer_detailes {
+    color: rgb(190, 190, 190);
+    margin-top: 20px;
+    text-decoration: none;   
+}
+.footer_links a{
+    color: rgb(190, 190, 190);
+    margin-top: 20px;
+    text-decoration: none;   
+}
+.footer_links li{
+    margin-top: 20px;
+    list-style-type: none;
+}
+.footer_links a:hover{
+    color: orange;
+}
